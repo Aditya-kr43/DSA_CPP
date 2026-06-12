@@ -1,0 +1,2 @@
+1.  Write a function to check if a number is a palindrome in C++. 
+(121 is a palindrome, 321 is not)
