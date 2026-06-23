@@ -7,7 +7,7 @@ int main()
     // cout << word << endl;
 
     char sentence[30];
-    cin.getline(sentence, 30, '.');
+    cin.getline(sentence, 30, 'd');
     cout << "string: " << sentence << endl; 
     return 0;
 }
