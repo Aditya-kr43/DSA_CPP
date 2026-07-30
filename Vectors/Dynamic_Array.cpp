@@ -1,8 +1,8 @@
 #include<iostream>
 using namespace std;
-int main()
+void funcInt()
 {
-    int size;
+     int size;
     cout << "Enter the Size: ";
     cin >> size;
     int *arr = new int[size];
@@ -15,5 +15,10 @@ int main()
         x++;
     }
     cout << endl;
+    delete [] arr;  //free the memory that is created by new
+}
+int main()
+{
+    funcInt();
     return 0;
 }
